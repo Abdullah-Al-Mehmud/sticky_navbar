@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts link start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Cedarville+Cursive&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200&family=Josefin+Slab:wght@300&family=Jost:wght@100;400;500&family=Lato:wght@300&family=Mouse+Memoirs&family=Neucha&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Recursive:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts link end -->
+    <title>sticky_navBar</title>
+    <style>
+      * {
+        font-family: "Jost", sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 62.5%;
+      }
+
+      .menu-container {
+        width: 100%;
+        height: 8rem;
+        background-color: white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .menu-items {
+        width: 70%;
+        height: 100%;
+
+        float: left;
+      }
+      .menu-items ul {
+        margin-left: 30%;
+      }
+      .menu-items ul li {
+        list-style: none;
+        /* margin: 3rem; */
+        float: left;
+        padding: 0rem 2rem;
+
+        line-height: 8rem;
+      }
+      .menu-items ul li a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: black;
+        transition: 1s;
+      }
+      .menu-items ul li:hover a {
+        color: #49b801;
+        transition: 1s;
+        transform: scale(1.1) !important;
+      }
+
+      #f-img {
+        width: 20%;
+        height: auto;
+      }
+      body {
+        text-align: center;
+      }
+      p {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 25px;
+        text-align: justify;
+      }
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img id="f-img" src="img/house.png" alt="" />
+    </div>
+
+    <div class="menu-container" id="nav_bar">
+      <div class="menu-items">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <img src="img/chef.gif" alt="" />
+    <p class="text">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi illo
+      aliquam modi veniam accusantium deserunt aspernatur quibusdam rem quasi
+      enim, ipsum praesentium beatae totam. Maxime, magni dicta qui odio amet
+      ipsam! Sunt sequi, nisi a totam officia placeat perspiciatis ipsam
+      blanditiis natus rerum cum, similique sint itaque inventore? Perspiciatis
+      est, fuga quaerat laudantium reprehenderit porro. Quam deserunt
+      reprehenderit ad! Atque quaerat, voluptatem alias porro earum dolorem nemo
+      nam doloremque, deleniti, libero perferendis perspiciatis hic nostrum
+      quibusdam explicabo. Iusto a ad magnam possimus exercitationem nesciunt
+      aliquam architecto adipisci quae cumque? Repellendus quae, possimus ut ab
+      quasi laudantium, repudiandae tempore magnam nisi esse deleniti placeat
+      ipsum veritatis, corporis sed adipisci pariatur accusamus. Quos fugit fuga
+      neque nobis maxime possimus dicta provident, minima unde quo. Odio
+      delectus non aliquam, aperiam atque modi? Eius quae saepe soluta iusto
+      consectetur nihil architecto quibusdam vel, odit placeat voluptatem
+      temporibus dolor doloremque repudiandae fugit quo, assumenda sunt
+      molestias quas id dicta dolorem doloribus! Hic culpa id at perspiciatis
+      dolores, fuga reprehenderit, quisquam quia, quis rem iusto ut.
+      Exercitationem consequatur, sed obcaecati, impedit deserunt eaque
+      inventore incidunt beatae similique, itaque blanditiis? Beatae similique
+      cumque voluptatibus facilis repellendus! Dolor laudantium dolore magnam
+      repellat quo vitae esse sequi voluptas suscipit fuga quas laboriosam
+      dolores mollitia, atque voluptate ex eaque fugiat sunt officiis
+      consectetur molestias optio eos excepturi. Soluta sed aperiam explicabo
+      earum assumenda repellendus dolore possimus iusto ullam suscipit obcaecati
+      vero numquam perspiciatis quibusdam accusantium, itaque, quaerat est
+      tempore molestiae dolorum debitis vel porro? Repellat, provident. Non
+      voluptatem inventore ratione, velit dicta labore reiciendis. Officia
+      facilis illum voluptate corporis dolor, sequi fugit omnis laborum suscipit
+      dolorem blanditiis pariatur, dignissimos similique maiores sunt
+      repudiandae consequuntur, vitae voluptatum porro vero quisquam nostrum
+      aliquam! Voluptates, provident labore ea delectus aperiam nisi tenetur
+      debitis repellendus laudantium iste voluptas perferendis voluptatum
+      recusandae optio quaerat sint dolores molestias nam reiciendis inventore!
+      Cumque ratione laudantium nulla perspiciatis voluptates! Sequi asperiores
+      fuga laboriosam? Molestiae odio corporis delectus, accusantium eveniet
+      quia excepturi quae eius. Possimus facere, et quaerat ratione enim
+      incidunt dignissimos non laudantium debitis eos dolorum culpa molestiae
+      delectus dolor, explicabo, sapiente laboriosam iusto dicta magni quod
+      accusamus porro eligendi repellendus. Odio quos ad tenetur? Sit possimus
+      obcaecati hic magni numquam cum recusandae quis aperiam labore natus. Illo
+      iure commodi placeat velit facere tempore facilis voluptatibus impedit
+      perferendis. Incidunt, iusto et harum commodi quam beatae omnis quis
+      laboriosam molestias impedit culpa placeat maxime ab animi unde maiores
+      esse laudantium veniam est similique. Obcaecati, deserunt explicabo iusto
+      ipsum tenetur perspiciatis doloremque omnis dicta perferendis hic optio
+      voluptates eligendi corporis ullam distinctio. Ex atque rerum quis, rem
+      recusandae eum similique ipsum eaque reiciendis ut vel facilis et expedita
+      sint explicabo unde beatae. Eligendi doloribus itaque asperiores natus.
+      Eaque, a aliquid cumque labore voluptas quam dolore corrupti vel ullam, ut
+      perferendis repudiandae est exercitationem nulla rem. Vel itaque quis
+      voluptatem hic dolore, fugiat nihil aliquam fugit perspiciatis minus!
+      Voluptates officia, earum ea quidem sint quasi, labore a tenetur quo
+      aliquam aut culpa necessitatibus, incidunt veniam est tempore architecto
+      facilis impedit tempora.
+    </p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
